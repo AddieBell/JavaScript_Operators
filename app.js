@@ -7,11 +7,14 @@ console.log(
 console.log("EXERCISE 1:\n==========\n");
 let a = 20;
 let b = 4;
-let add = a + b
+let add = a + b;
 let minus = a - b;
 let multiply = a * b;
 let dividing = a / b;
-
+console.log(add)
+console.log(minus)
+console.log(multiply)
+console.log(dividing)
 
 
 // Exercise 2
@@ -23,22 +26,22 @@ let isPresent = true;
 let firstName = "Frodo";
 let lastName = "Baggins";
 
-num + str 
+//num + str 
 console.log(num + str) //1111
 
-num + str2
+//num + str2
 console.log(num + str2)//11eleven
 
-num + isPresent
+//num + isPresent
 console.log(num + isPresent)//12
 
-firstName + num
+//firstName + num
 console.log(firstName + num)//Frodo11
 
-isPresent + str
+//isPresent + str
 console.log(isPresent + str)//true11
 
-firstName + lastName
+//firstName + lastName
 console.log(firstName + lastName)//FrodoBaggins
 
 // Exercise 3
@@ -48,29 +51,29 @@ let str3 = "5";
 let str4 = "five";
 let isPresent2 = false;
 
-val == str3
+//val == str3
 console.log(val == str3)//true
 
-val === str3
+//val === str3
 console.log(val === str3)//false
 
-!isPresent2
+//!isPresent2
 console.log(!isPresent2)//true
 
-"eleven" == str4 && val >= str3
+//"eleven" == str4 && val >= str3
 console.log("eleven" == str4 && val >= str3)//false
 
-!isPresent2 || isPresent2
+//!isPresent2 || isPresent2
 console.log(!isPresent2 || isPresent2)//true
 
-0 == false
+//0 == false
 console.log(0 == false)//true
 
-0 === false
+//0 === false
 console.log(0 === false)//false
 
-0!= false
+//0 != false
 console.log(0!= false)//false
 
-0!== false
+//0 !== false
 console.log(0!== false)//true
